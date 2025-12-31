@@ -129,6 +129,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>CalculationMatrixId</fullName>
         <trackHistory>false</trackHistory>
@@ -221,5 +222,4 @@
         <fullName>StepType</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -129,6 +129,11 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>TotalLifeTimeValue</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>TotalLifeTimeValue</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>CustomerStatusType</fullName>
     </fields>
@@ -146,9 +151,4 @@
     <fields>
         <fullName>TotalLifeTimeValue</fullName>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>TotalLifeTimeValue</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>TotalLifeTimeValue</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

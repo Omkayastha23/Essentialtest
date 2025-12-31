@@ -129,6 +129,19 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>LegalBasis</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Purpose</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>LegalBasis</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Purpose</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>CanDataSubjectOptOut</fullName>
         <trackHistory>false</trackHistory>
@@ -151,17 +164,4 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>LegalBasis</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Purpose</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>LegalBasis</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Purpose</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

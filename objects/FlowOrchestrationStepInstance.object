@@ -73,6 +73,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Label</fullName>
     </fields>
@@ -87,5 +88,4 @@
     <fields>
         <fullName>Status</fullName>
     </fields>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

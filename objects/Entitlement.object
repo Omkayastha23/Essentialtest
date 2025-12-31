@@ -129,6 +129,33 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ENTITLEMENT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ENTITLEMENT.STARTDATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ENTITLEMENT.ENDDATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ENTITLEMENT.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ENTITLEMENT.STATUSINDICATOR</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ENTITLEMENT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ENTITLEMENT.STARTDATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ENTITLEMENT.ENDDATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ENTITLEMENT.STATUS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ENTITLEMENT.STATUSINDICATOR</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.STARTDATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.ENDDATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.STATUS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.STATUSINDICATOR</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ENTITLEMENT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ENTITLEMENT.STARTDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ENTITLEMENT.ENDDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ENTITLEMENT.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ENTITLEMENT.STATUSINDICATOR</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackHistory>false</trackHistory>
@@ -209,31 +236,4 @@
         <fullName>WorkOrdersPerEntitlement</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>ENTITLEMENT.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ENTITLEMENT.STARTDATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ENTITLEMENT.ENDDATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ENTITLEMENT.STATUS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ENTITLEMENT.STATUSINDICATOR</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>ENTITLEMENT.NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ENTITLEMENT.STARTDATE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ENTITLEMENT.ENDDATE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ENTITLEMENT.STATUS</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ENTITLEMENT.STATUSINDICATOR</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.STARTDATE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.ENDDATE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.STATUS</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ENTITLEMENT.STATUSINDICATOR</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ENTITLEMENT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ENTITLEMENT.STARTDATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ENTITLEMENT.ENDDATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ENTITLEMENT.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ENTITLEMENT.STATUSINDICATOR</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

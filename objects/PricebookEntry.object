@@ -142,6 +142,13 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <searchLayouts>
+        <searchResultsAdditionalFields>PRODUCT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT.DEFAULT_PRICE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.FAMILY_ENUM</searchResultsAdditionalFields>
+    </searchLayouts>
     <fields>
         <fullName>IsActive</fullName>
         <trackHistory>false</trackHistory>
@@ -168,11 +175,4 @@
         <fullName>UseStandardPrice</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <searchResultsAdditionalFields>PRODUCT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRODUCT.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRODUCT.DEFAULT_PRICE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRODUCT2.FAMILY_ENUM</searchResultsAdditionalFields>
-    </searchLayouts>
 </CustomObject>

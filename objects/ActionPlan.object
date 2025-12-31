@@ -101,6 +101,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>ActionPlanState</fullName>
         <type>Picklist</type>
@@ -144,5 +145,4 @@
         <fullName>TargetId</fullName>
         <type>Lookup</type>
     </fields>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

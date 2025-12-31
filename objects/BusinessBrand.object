@@ -129,6 +129,11 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>OrgId</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>OrgId</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Name</fullName>
     </fields>
@@ -143,9 +148,4 @@
         <fullName>ParentId</fullName>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>OrgId</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>OrgId</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

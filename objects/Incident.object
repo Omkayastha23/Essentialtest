@@ -129,6 +129,19 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SubCategory</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SubCategory</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>BusinessHoursId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -283,17 +296,4 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
-        <customTabListAdditionalFields>SubCategory</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>SubCategory</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

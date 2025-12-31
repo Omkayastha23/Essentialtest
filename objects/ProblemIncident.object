@@ -129,6 +129,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>IssueId</fullName>
         <trackHistory>false</trackHistory>
@@ -152,5 +153,4 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

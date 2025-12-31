@@ -2,6 +2,7 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>ActivityTeamId</fullName>
         <trackHistory>false</trackHistory>
@@ -24,5 +25,4 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -186,6 +186,21 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Persona</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Content</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Posted</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ReviewedStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Notes</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Persona</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Content</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Posted</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ReviewedStatus</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Notes</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>AnalyzerScore</fullName>
     </fields>
@@ -368,19 +383,4 @@
         <fullName>WhoId</fullName>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Persona</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Content</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Posted</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ReviewedStatus</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Notes</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Persona</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Content</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Posted</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ReviewedStatus</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Notes</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

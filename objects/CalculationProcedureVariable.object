@@ -129,6 +129,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>ApiName</fullName>
         <trackHistory>false</trackHistory>
@@ -178,5 +179,4 @@
         <fullName>UiDisplayOrder</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

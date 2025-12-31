@@ -129,6 +129,19 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>RevisionNumber</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveFromDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveToDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>RevisionNumber</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveFromDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveToDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>DefaultAuthFormTextId</fullName>
         <trackHistory>false</trackHistory>
@@ -159,17 +172,4 @@
         <fullName>RevisionNumber</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>RevisionNumber</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EffectiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EffectiveToDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>RevisionNumber</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EffectiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EffectiveToDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

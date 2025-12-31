@@ -129,6 +129,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>AddressType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>AddressType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Parent</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AddressType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Parent</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>AddressType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Address</fullName>
         <trackHistory>false</trackHistory>
@@ -160,19 +175,4 @@
         <fullName>TimeZone</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>AddressType</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>AddressType</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Parent</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>AddressType</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Parent</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>AddressType</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -102,6 +102,11 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Provider</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Provider</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>AreWeFollowing</fullName>
     </fields>
@@ -184,9 +189,4 @@
     <fields>
         <fullName>UserId</fullName>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Provider</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Provider</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

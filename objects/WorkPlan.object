@@ -129,6 +129,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ExecutionOrder</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ExecutionOrder</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ExecutionOrder</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ExecutionOrder</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
@@ -169,19 +184,4 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
-        <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ExecutionOrder</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ExecutionOrder</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ExecutionOrder</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ExecutionOrder</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

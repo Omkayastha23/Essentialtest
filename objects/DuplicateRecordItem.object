@@ -115,6 +115,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>DuplicateRecordSetId</fullName>
         <type>MasterDetail</type>
@@ -123,5 +124,4 @@
         <fullName>RecordId</fullName>
         <type>Lookup</type>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

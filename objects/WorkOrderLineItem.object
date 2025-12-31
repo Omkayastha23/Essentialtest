@@ -143,6 +143,13 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Address</fullName>
         <trackHistory>false</trackHistory>
@@ -248,11 +255,4 @@
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

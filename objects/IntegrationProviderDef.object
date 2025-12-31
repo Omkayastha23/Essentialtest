@@ -3,11 +3,11 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>DeveloperName</fullName>
     </fields>
     <fields>
         <fullName>MasterLabel</fullName>
     </fields>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

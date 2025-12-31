@@ -59,6 +59,15 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>VideoCall</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Email</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RelatedPerson</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>VideoCall</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Email</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RelatedPerson</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Email</fullName>
     </fields>
@@ -73,13 +82,4 @@
         <fullName>VideoCallId</fullName>
         <type>MasterDetail</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>VideoCall</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Email</customTabListAdditionalFields>
-        <customTabListAdditionalFields>RelatedPerson</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>VideoCall</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Email</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>RelatedPerson</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

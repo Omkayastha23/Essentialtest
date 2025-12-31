@@ -129,6 +129,29 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CORE.USERS.ALIAS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER.ALIAS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>UPDATEDBY_USER.ALIAS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>INDIVIDUAL.LAST_UPDATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATEDBY_USER.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>UPDATEDBY_USER.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>INDIVIDUAL.LAST_UPDATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATEDBY_USER.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>UPDATEDBY_USER.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>INDIVIDUAL.LAST_UPDATE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER.ALIAS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>UPDATEDBY_USER.ALIAS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>INDIVIDUAL.LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>BirthDate</fullName>
         <trackHistory>false</trackHistory>
@@ -220,27 +243,4 @@
         <fullName>Website</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CORE.USERS.ALIAS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CREATEDBY_USER.ALIAS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>UPDATEDBY_USER.ALIAS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>INDIVIDUAL.LAST_UPDATE</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CREATEDBY_USER.ALIAS</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>UPDATEDBY_USER.ALIAS</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>INDIVIDUAL.LAST_UPDATE</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CREATEDBY_USER.ALIAS</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>UPDATEDBY_USER.ALIAS</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>INDIVIDUAL.LAST_UPDATE</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CREATEDBY_USER.ALIAS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>UPDATEDBY_USER.ALIAS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>INDIVIDUAL.LAST_UPDATE</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

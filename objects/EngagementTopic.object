@@ -128,6 +128,24 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <searchLayouts>
+        <customTabListAdditionalFields>RelatedPerson</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Topic</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Engagement</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>RelatedPerson</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Topic</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Engagement</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RelatedPerson</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Topic</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Engagement</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>RelatedPerson</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Topic</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Engagement</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+    </searchLayouts>
     <fields>
         <fullName>EngagementId</fullName>
         <trackHistory>false</trackHistory>
@@ -179,22 +197,4 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>RelatedPerson</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Topic</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Engagement</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>RelatedPerson</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Topic</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Engagement</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>RelatedPerson</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Topic</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Engagement</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>RelatedPerson</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Topic</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Engagement</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
-    </searchLayouts>
 </CustomObject>

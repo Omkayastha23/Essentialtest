@@ -73,6 +73,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>BusinessHoursId</fullName>
         <type>Lookup</type>
@@ -147,5 +148,4 @@
     <fields>
         <fullName>TimeSinceTargetInMins</fullName>
     </fields>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

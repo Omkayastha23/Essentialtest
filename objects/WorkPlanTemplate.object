@@ -129,6 +129,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RelativeExecutionOrder</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>RelativeExecutionOrder</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RelativeExecutionOrder</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RelativeExecutionOrder</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
@@ -150,19 +165,4 @@
         <fullName>RelativeExecutionOrder</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
-        <customTabListAdditionalFields>RelativeExecutionOrder</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>RelativeExecutionOrder</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>RelativeExecutionOrder</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>RelativeExecutionOrder</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

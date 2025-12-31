@@ -59,6 +59,19 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>StartDateTime</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>DurationInSeconds</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>RelatedRecord</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartDateTime</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>DurationInSeconds</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RelatedRecord</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>StartDateTime</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DurationInSeconds</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RelatedRecord</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Description</fullName>
     </fields>
@@ -120,17 +133,4 @@
     <fields>
         <fullName>VendorName</fullName>
     </fields>
-    <searchLayouts>
-        <lookupDialogsAdditionalFields>StartDateTime</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>DurationInSeconds</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>RelatedRecord</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>StartDateTime</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>DurationInSeconds</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>RelatedRecord</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>StartDateTime</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>DurationInSeconds</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>RelatedRecord</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

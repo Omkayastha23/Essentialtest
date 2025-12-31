@@ -129,6 +129,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ChangeType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RiskLevel</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Impact</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ChangeType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RiskLevel</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Impact</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>BusinessJustification</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -230,19 +245,4 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ChangeType</customTabListAdditionalFields>
-        <customTabListAdditionalFields>RiskLevel</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Impact</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ChangeType</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>RiskLevel</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Impact</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

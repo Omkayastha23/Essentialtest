@@ -128,9 +128,9 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>ItemStatus</fullName>
         <type>Picklist</type>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

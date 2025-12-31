@@ -129,6 +129,19 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>TelephoneNumber</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>TelephoneNumber</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>ActiveFromDate</fullName>
         <trackHistory>false</trackHistory>
@@ -212,17 +225,4 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>TelephoneNumber</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>TelephoneNumber</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

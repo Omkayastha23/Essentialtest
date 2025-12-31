@@ -129,6 +129,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ConsentGiver</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ContactPoint</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveFromDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveToDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ConsentCapturedDateTime</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ConsentCapturedSource</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>ConsentGiver</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ContactPoint</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveFromDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveToDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ConsentCapturedDateTime</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ConsentCapturedSource</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>BusinessBrandId</fullName>
         <trackHistory>false</trackHistory>
@@ -204,19 +219,4 @@
         <fullName>PrivacyConsentStatus</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>ConsentGiver</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ContactPoint</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EffectiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EffectiveToDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ConsentCapturedDateTime</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ConsentCapturedSource</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>ConsentGiver</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ContactPoint</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EffectiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EffectiveToDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ConsentCapturedDateTime</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ConsentCapturedSource</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

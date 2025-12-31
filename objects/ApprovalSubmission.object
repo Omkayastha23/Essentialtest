@@ -73,6 +73,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Comments</fullName>
     </fields>
@@ -101,5 +102,4 @@
         <fullName>SubmittedById</fullName>
         <type>Lookup</type>
     </fields>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

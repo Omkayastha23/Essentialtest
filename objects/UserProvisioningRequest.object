@@ -3,6 +3,23 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ConnectedApp</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Operation</customTabListAdditionalFields>
+        <customTabListAdditionalFields>State</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ApprovalStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SalesforceUser</customTabListAdditionalFields>
+        <customTabListAdditionalFields>UserProvAccount</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>ConnectedApp</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Operation</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>State</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ApprovalStatus</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SalesforceUser</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>UserProvAccount</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>AppName</fullName>
     </fields>
@@ -42,21 +59,4 @@
         <fullName>UserProvAccountId</fullName>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>ConnectedApp</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Operation</customTabListAdditionalFields>
-        <customTabListAdditionalFields>State</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ApprovalStatus</customTabListAdditionalFields>
-        <customTabListAdditionalFields>SalesforceUser</customTabListAdditionalFields>
-        <customTabListAdditionalFields>UserProvAccount</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>ConnectedApp</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Operation</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>State</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ApprovalStatus</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>SalesforceUser</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>UserProvAccount</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

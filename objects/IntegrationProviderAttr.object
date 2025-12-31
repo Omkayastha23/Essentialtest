@@ -2,6 +2,7 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>DataType</fullName>
     </fields>
@@ -42,5 +43,4 @@
     <fields>
         <fullName>StringValue</fullName>
     </fields>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

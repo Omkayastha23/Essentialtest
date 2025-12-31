@@ -129,6 +129,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Description</fullName>
     </fields>
@@ -139,5 +140,4 @@
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

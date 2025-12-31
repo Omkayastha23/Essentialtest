@@ -129,6 +129,33 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Severity</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CreatedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Category</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Severity</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Priority</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CreatedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Category</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Severity</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Priority</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Severity</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>AssetId</fullName>
         <type>Lookup</type>
@@ -170,31 +197,4 @@
         <fullName>Status</fullName>
         <type>Picklist</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Severity</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>CreatedDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Category</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Severity</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Priority</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CreatedDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Category</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Severity</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Priority</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Severity</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

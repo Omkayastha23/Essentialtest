@@ -129,6 +129,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>IsCallback</fullName>
     </fields>
@@ -162,5 +163,4 @@
         <fullName>WhoId</fullName>
         <type>Lookup</type>
     </fields>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

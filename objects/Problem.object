@@ -129,6 +129,23 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Urgency</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Impact</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SubCategory</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Urgency</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Impact</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SubCategory</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Category</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -216,21 +233,4 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Urgency</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Impact</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
-        <customTabListAdditionalFields>SubCategory</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Urgency</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Impact</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>SubCategory</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

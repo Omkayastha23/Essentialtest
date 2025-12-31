@@ -3,6 +3,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>CloneFromOrg</fullName>
         <trackHistory>true</trackHistory>
@@ -99,5 +100,4 @@
         <fullName>Username</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -143,6 +143,25 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Subject</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Account</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Priority</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Subject</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Priority</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackHistory>false</trackHistory>
@@ -296,23 +315,4 @@
         <fullName>TotalPrice</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Subject</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Account</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Priority</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Subject</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Account</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Priority</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Account</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -101,6 +101,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartTime</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndTime</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>StartTime</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EndTime</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartTime</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EndTime</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartTime</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndTime</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>AdditionalInformation</fullName>
         <trackHistory>false</trackHistory>
@@ -158,19 +173,4 @@
         <fullName>Type</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <customTabListAdditionalFields>StartTime</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EndTime</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>StartTime</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>EndTime</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>StartTime</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>EndTime</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>StartTime</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EndTime</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

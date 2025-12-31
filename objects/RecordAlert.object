@@ -129,6 +129,49 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
+        <customTabListAdditionalFields>What</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SourceSystemIdentifier</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ValidUntilDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Severity</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RecordAlertCategory</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Parent</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>What</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SourceSystemIdentifier</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Subject</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EffectiveDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ValidUntilDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Severity</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>RecordAlertCategory</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Parent</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>What</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SourceSystemIdentifier</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Subject</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EffectiveDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ValidUntilDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Severity</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RecordAlertCategory</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>What</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SourceSystemIdentifier</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ValidUntilDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Severity</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RecordAlertCategory</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
@@ -184,47 +227,4 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <customTabListAdditionalFields>What</customTabListAdditionalFields>
-        <customTabListAdditionalFields>SourceSystemIdentifier</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EffectiveDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ValidUntilDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Severity</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
-        <customTabListAdditionalFields>RecordAlertCategory</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Parent</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>What</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>SourceSystemIdentifier</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Subject</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>EffectiveDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ValidUntilDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Severity</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>RecordAlertCategory</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Parent</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>What</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>SourceSystemIdentifier</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Subject</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>EffectiveDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ValidUntilDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Severity</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>RecordAlertCategory</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>What</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>SourceSystemIdentifier</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EffectiveDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ValidUntilDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Severity</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>RecordAlertCategory</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

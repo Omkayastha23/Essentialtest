@@ -143,6 +143,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>CalculationProcedureId</fullName>
         <trackHistory>false</trackHistory>
@@ -204,5 +205,4 @@
         <fullName>VersionNumber</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -129,6 +129,8 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
@@ -162,6 +164,4 @@
         <fullName>UniqueName</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts/>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

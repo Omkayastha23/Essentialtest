@@ -129,6 +129,19 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ActiveToDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsPrimary</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsDefault</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ActiveToDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsPrimary</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsDefault</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>ActiveFromDate</fullName>
         <trackHistory>false</trackHistory>
@@ -198,17 +211,4 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveToDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsPrimary</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsDefault</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveToDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsPrimary</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsDefault</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

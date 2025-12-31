@@ -129,6 +129,19 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>AuthorizationForm</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SummaryAuthFormText</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LocaleSelection</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>AuthorizationForm</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SummaryAuthFormText</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LocaleSelection</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>AuthorizationFormId</fullName>
         <trackHistory>false</trackHistory>
@@ -158,17 +171,4 @@
         <fullName>SummaryAuthFormText</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>AuthorizationForm</customTabListAdditionalFields>
-        <customTabListAdditionalFields>SummaryAuthFormText</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LocaleSelection</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>AuthorizationForm</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>SummaryAuthFormText</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LocaleSelection</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

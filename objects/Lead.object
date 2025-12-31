@@ -256,6 +256,27 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.COMPANY</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.MOBILE_PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.FAX</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.COMPANY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.MOBILE_PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWriteTransfer</sharingModel>
     <fields>
         <fullName>Address</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -367,27 +388,6 @@
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LEAD.COMPANY</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LEAD.PHONE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LEAD.MOBILE_PHONE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LEAD.FAX</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.TITLE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.COMPANY</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.PHONE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.MOBILE_PHONE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.EMAIL</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWriteTransfer</sharingModel>
     <webLinks>
         <fullName>AltavistaNews</fullName>
         <availability>online</availability>

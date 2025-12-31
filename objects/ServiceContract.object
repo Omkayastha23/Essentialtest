@@ -129,6 +129,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.STARTDATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.ENDDATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.APPROVALSTATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.STATUSINDICATOR</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.STARTDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.ENDDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.APPROVALSTATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.STATUSINDICATOR</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackHistory>false</trackHistory>
@@ -240,19 +255,4 @@
         <fullName>TotalPrice</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.STARTDATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.ENDDATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.APPROVALSTATUS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.STATUS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.STATUSINDICATOR</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.STARTDATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.ENDDATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.APPROVALSTATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.STATUSINDICATOR</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

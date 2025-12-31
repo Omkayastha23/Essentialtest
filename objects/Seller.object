@@ -129,6 +129,15 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ActiveToDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SalesAmount</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ActiveToDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SalesAmount</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>ActiveFromDate</fullName>
         <trackHistory>false</trackHistory>
@@ -163,13 +172,4 @@
         <fullName>SellerType</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveToDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>SalesAmount</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveToDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>SalesAmount</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

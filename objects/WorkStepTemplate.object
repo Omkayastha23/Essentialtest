@@ -129,6 +129,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ActionDefinition</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ActionDefinition</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ActionDefinition</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ActionDefinition</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>ActionDefinition</fullName>
         <inlineHelpText>Find and select the associated global action, quick action, screen flow, or mobile flow.</inlineHelpText>
@@ -155,19 +170,4 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActionDefinition</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ActionDefinition</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ActionDefinition</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActionDefinition</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -128,6 +128,32 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <searchLayouts>
+        <customTabListAdditionalFields>ExternalAttendee</customTabListAdditionalFields>
+        <customTabListAdditionalFields>InternalAttendee</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Engagement</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDateTime</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndDateTime</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ExternalAttendee</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>InternalAttendee</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Engagement</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>StartDateTime</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EndDateTime</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ExternalAttendee</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>InternalAttendee</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Engagement</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartDateTime</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EndDateTime</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ExternalAttendee</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>InternalAttendee</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Engagement</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartDateTime</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndDateTime</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+    </searchLayouts>
     <fields>
         <fullName>EndDateTime</fullName>
         <trackHistory>false</trackHistory>
@@ -173,30 +199,4 @@
         <fullName>VerificationTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>ExternalAttendee</customTabListAdditionalFields>
-        <customTabListAdditionalFields>InternalAttendee</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Engagement</customTabListAdditionalFields>
-        <customTabListAdditionalFields>StartDateTime</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EndDateTime</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>ExternalAttendee</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>InternalAttendee</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Engagement</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>StartDateTime</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>EndDateTime</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ExternalAttendee</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>InternalAttendee</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Engagement</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>StartDateTime</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>EndDateTime</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ExternalAttendee</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>InternalAttendee</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Engagement</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>StartDateTime</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EndDateTime</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
-    </searchLayouts>
 </CustomObject>

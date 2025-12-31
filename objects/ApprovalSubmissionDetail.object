@@ -73,6 +73,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>ActionChannelName</fullName>
     </fields>
@@ -100,5 +101,4 @@
     <fields>
         <fullName>Comments</fullName>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

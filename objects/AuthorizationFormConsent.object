@@ -129,6 +129,23 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ConsentGiver</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AuthorizationFormText</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ConsentCapturedSource</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ConsentCapturedSourceType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>ConsentGiver</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AuthorizationFormText</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ConsentCapturedSource</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ConsentCapturedSourceType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>AuthorizationFormTextId</fullName>
         <trackHistory>false</trackHistory>
@@ -174,21 +191,4 @@
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>ConsentGiver</customTabListAdditionalFields>
-        <customTabListAdditionalFields>AuthorizationFormText</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ConsentCapturedSource</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ConsentCapturedSourceType</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>ConsentGiver</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>AuthorizationFormText</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ConsentCapturedSource</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ConsentCapturedSourceType</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

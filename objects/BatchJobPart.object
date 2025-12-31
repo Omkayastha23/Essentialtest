@@ -87,6 +87,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>BatchJobId</fullName>
         <trackHistory>false</trackHistory>
@@ -136,5 +137,4 @@
         <fullName>Type</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

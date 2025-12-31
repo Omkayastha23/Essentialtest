@@ -73,6 +73,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>AuxiliaryTriggeringRecord</fullName>
     </fields>
@@ -98,5 +99,4 @@
     <fields>
         <fullName>TriggeringRecordType</fullName>
     </fields>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

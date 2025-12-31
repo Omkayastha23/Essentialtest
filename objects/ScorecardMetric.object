@@ -129,6 +129,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Category</fullName>
         <type>Picklist</type>
@@ -147,5 +148,4 @@
         <fullName>ScorecardId</fullName>
         <type>MasterDetail</type>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

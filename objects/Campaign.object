@@ -158,6 +158,22 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PARENT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.START_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.END_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NUM_RESPONSES</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>FullAccess</sharingModel>
     <fields>
         <fullName>ActualCost</fullName>
     </fields>
@@ -268,22 +284,6 @@
         <fullName>Type</fullName>
         <type>Picklist</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PARENT_NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.START_DATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.END_DATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.NUM_RESPONSES</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>FullAccess</sharingModel>
     <webLinks>
         <fullName>ViewAllCampaignMembers</fullName>
         <availability>online</availability>

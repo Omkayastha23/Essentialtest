@@ -101,6 +101,30 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.INSTALL_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.SERIAL_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.INSTALL_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.NAME</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackHistory>false</trackHistory>
@@ -238,28 +262,4 @@
         <inlineHelpText>Unique string identifying the asset.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ASSET.INSTALL_DATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTACT.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>ASSET.NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CONTACT.NAME</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ASSET.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.NAME</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ASSET.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ASSET.SERIAL_NUMBER</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ASSET.INSTALL_DATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.NAME</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

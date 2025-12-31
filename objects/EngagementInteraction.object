@@ -128,6 +128,46 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <searchLayouts>
+        <customTabListAdditionalFields>InitiatingAttendee</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsAttendeeAuthenticated</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsAttendeeVerified</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDateTime</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndDateTime</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CommunicationChannel</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Sentiment</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ExternalIdentifier</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>InitiatingAttendee</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IsAttendeeAuthenticated</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IsAttendeeVerified</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>StartDateTime</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EndDateTime</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CommunicationChannel</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Sentiment</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ExternalIdentifier</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>InitiatingAttendee</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IsAttendeeAuthenticated</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IsAttendeeVerified</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartDateTime</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EndDateTime</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CommunicationChannel</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Sentiment</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ExternalIdentifier</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PhoneNumber</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>InitiatingAttendee</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsAttendeeAuthenticated</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsAttendeeVerified</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartDateTime</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndDateTime</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CommunicationChannel</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sentiment</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ExternalIdentifier</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>AttendeeVerificationTime</fullName>
         <trackHistory>false</trackHistory>
@@ -194,44 +234,4 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>InitiatingAttendee</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsAttendeeAuthenticated</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsAttendeeVerified</customTabListAdditionalFields>
-        <customTabListAdditionalFields>StartDateTime</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EndDateTime</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CommunicationChannel</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Sentiment</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ExternalIdentifier</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>InitiatingAttendee</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>IsAttendeeAuthenticated</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>IsAttendeeVerified</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>StartDateTime</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>EndDateTime</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CommunicationChannel</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Sentiment</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ExternalIdentifier</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>InitiatingAttendee</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>IsAttendeeAuthenticated</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>IsAttendeeVerified</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>StartDateTime</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>EndDateTime</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CommunicationChannel</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Sentiment</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ExternalIdentifier</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PhoneNumber</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>InitiatingAttendee</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsAttendeeAuthenticated</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsAttendeeVerified</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>StartDateTime</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EndDateTime</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CommunicationChannel</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Sentiment</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ExternalIdentifier</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
